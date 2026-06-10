@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calibre-metadata-extractor-plugin"
+version = "0.1.0"
+description = "Calibre plugin to extract ISBNs and alternative metadata to retrieve a matching ISBN from Kontent."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+authors = [ { name = "CaliMetaEx", email = "emailpostspace-GitHubCaliMetaEx@yahoo.com" } ]
+requires-python = ">=3.8"
+
+[tool.setuptools]
+package-dir = {"" = ""}
